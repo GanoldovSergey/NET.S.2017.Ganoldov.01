@@ -12,7 +12,7 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             int[] a = new int[] { 1, 5, 3, 5, 7, -9, 5, 0, -3, -6, 2, -6, 9, 8, -6, 4, -2, 6, 0, 11 };
-            QuickSort.Sort(a);
+            Sort.MergeSort(a);
             Console.Write("Sorted array: ");
             for (int i = 0; i < a.Length; i++)
             {
